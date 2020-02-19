@@ -8,15 +8,15 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 
   .headline { padding: 120px 0; }
 
   h1 {
     font-size: 130px;
     color: #fff;
-    font-family: 'Space Mono', monospace;
-    background: rgba(108, 99, 255, 0.7);
+    font-family: 'Quicksand', monospace;
+    background: rgba(0, 191, 166, 0.7);
     // background: rgba(119, 123, 155, 0.7);
     // background: rgba(160, 71, 227, 0.7);
   }
@@ -33,6 +33,11 @@ header {
     color: #3F3D56;
     // background: #fff;
     background: rgba(255,255,255,0.7);
+    padding: 10px;
+  }
+  
+  .opacity {
+    background: rgba(47, 47, 66, 0.25);
   }
 
   h3 > strong {
