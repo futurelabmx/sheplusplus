@@ -4,6 +4,11 @@ main {
   hr { margin: 80px 0; }
   section { overflow: hidden; }
 
+  .btn-success, .btn-success:hover, .btn-success:active, .btn-success:visited {
+      background-color: #8367c7 !important;
+      border-color: #8367c7 !important;
+  }
+
   img {
     // @extend .img-circle;
     @extend .img-responsive;
